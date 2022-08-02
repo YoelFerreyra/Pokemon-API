@@ -1,0 +1,39 @@
+.container{
+    color: white;
+}
+.container button{
+    padding: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffcb05;
+    background: #213970;
+    margin: 20px;
+    border-radius: 10px;
+}
+form input{
+    color: #fff;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+}
+form input:focus{
+    border-bottom: 2px solid #213978;
+}
+.form{
+    display: inline-block;
+    color: white;
+    background-color: rgba(255, 255, 255, .15);
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, .25);
+}
+.form p{
+    color: rgb(255, 58, 58);
+    font-size: 15px;
+    
+}

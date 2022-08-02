@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+.PaginaInicial{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./fondo.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border: none;
+    background-image: url('./pokeBallClosed.png');
+    background-size: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-image: url('./pokeBallOpen.png');
+    transition: 0.5s;
+    background-size: cover;
+    box-shadow: 1px 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+.PaginaInicial img{
+    height: 80px;
+}
+/*
+.botton{
+    text-align: center;
+    text-decoration: none;
+    color: #612d11;
+    width: 220px;
+    font-size: 40px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+    position: absolute;
+    top: 49.8%;
+    left: 55%;
+    animation: animation 2s infinite;
+    box-shadow: 0 2px 30px rgba(62, 62, 62, 0.316);
+}
+
+
+@keyframes animation {
+    0%{
+        transform: translateY(-10px);
+    }
+    30%{
+        transform: translateY(0) rotate(2deg);
+    }
+    50%{
+         transform: rotate(-2deg);
+    }
+    75%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes texto-animado {
+    from{
+        text-shadow: 3px 3px 5px #ffffff;
+
+    }
+    to{
+        text-shadow: 3px 3px 10px #ffffff;
+    }
+}
+   
+rvf-zatx-pja
+*/

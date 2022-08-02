@@ -1,0 +1,23 @@
+.home{
+    /* color: white;
+    background-image: url('./fondoPrincipal2.jpg');
+    background-size: cover; */
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+}
+.paginacion{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.cards .load{
+    width: auto;
+    height: 180px;
+    position: absolute;
+    top: 34%;
+    left: 40%;
+}

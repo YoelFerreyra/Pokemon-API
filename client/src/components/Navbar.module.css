@@ -1,0 +1,31 @@
+.navbar{
+    padding: 10px;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.form label{
+    margin-right: 8px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.form input{
+    width: 150px;
+    font-size: 20px;
+}
+.navbar img{
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.navbar button{
+    font-weight: 700;
+    color: #ffcb05;
+    background: #213970;
+    margin: 0 5px;
+    border-radius: 10px;
+}
